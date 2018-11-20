@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css?family=Milonga');
+
+body {
+    font-family: 'Milonga';
+}
+
+.header {
+    font-size: 1.5em;
+    color: white;
+    background-image: linear-gradient(to right, rgb(154,53,183), rgb(94,63,180));
+    text-align: center;
+    padding:1px;
+}
+
+.header2 {
+    font-size: 1em;
+    color: white;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    background-color: rgb(154, 53, 180);
+    text-align: center;
+}
+
+img {
+    float: inherit;
+}
+
+.button1 {
+    font-family: 'Milonga';
+    display: inline-block;
+    float:left;
+    font-size: 3em;
+    color: rgb(94,63,180);
+    width: 50%;
+    padding: .55em;
+    margin-top: .5em;
+    margin-bottom: .5em;
+    background-color: rgb(254, 206, 86);
+    border-radius: 10px;
+    cursor: pointer;
+}
+.button1:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}  
+
+.button2 {
+    font-family: 'Milonga';
+    display:inline-block;
+    font-size: 3em;
+    color: rgb(94,63,180);
+    width: 50%;
+    padding: .55em;
+    padding-left: .2em;
+    padding-right: .2em;
+    margin-top: .5em;
+    margin-bottom: .5em;
+    background-color: rgb(254, 206, 86);
+    border-radius: 10px;
+    cursor: pointer;
+}
+.button2:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+
+.button:active {
+  transform: translateY(4px);
+}
+
+.divider{
+    width:3em;
+    height:auto;
+    display:inline-block;
+}
+
+.btn-group button{
+    float:left;
+}
+
+.btn-group button:not(:last-child) {
+    border-right: none; /* Prevent double borders */
+}
+
+/* Clear floats (clearfix hack) */
+.btn-group:after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.box {
+    background-image: linear-gradient(to bottom right, rgb(254,206,86), rgb(205,66,149));
+    padding: 2em;
+}
+.sum {
+    margin: 0;
+    background-color: white;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.footer {
+    font-family: 'Milonga';
+    text-align: center;
+}
