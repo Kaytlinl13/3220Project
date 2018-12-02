@@ -41,7 +41,7 @@
 							</v-flex>
 						</v-card>
 						<v-flex>
-							<v-btn block color="#fece56">Back: Race</v-btn>
+							<v-btn block color="#fece56" to="ChooseRace">Back: Race?</v-btn>
 						</v-flex>
 					</v-flex>
 				</v-card>
@@ -54,7 +54,7 @@
 							<v-img contain aspect-ratio="2" v-bind:src="require('../../assets/images/dragonborn.jpg')"></v-img>
 							<p style="font-size:200%; text-align:left; padding: 40px; text-indent: 25px;">{{aboutDragonborn}}</p>
 							<v-flex>
-								<v-btn block color="#fece56" to='/NameCharacter'>Next: Name, Level, and Alignment</v-btn>
+								<v-btn block color="#fece56" to='ChooseClass'>Next: Class</v-btn>
 							</v-flex>
 						</v-card>
 						<v-card v-if="whichRace == 5">
@@ -62,7 +62,7 @@
 							<v-img contain aspect-ratio="2" v-bind:src="require('../../assets/images/halfelf.png')"></v-img>
 							<p style="font-size:200%; text-align:left; padding: 40px; text-indent: 25px;">{{aboutHalfElf}}</p>
 							<v-flex>
-								<v-btn block color="#fece56" to='NameCharacter'>Next: Name, Level, and Alignment</v-btn>
+								<v-btn block color="#fece56" to='ChooseClass'>Next: Class</v-btn>
 							</v-flex>
 						</v-card>
 					</v-flex>

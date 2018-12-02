@@ -73,7 +73,7 @@
 							<v-img contain aspect-ratio="2" v-bind:src="require('../../assets/images/barbarian.png')"></v-img>
 							<p style="font-size:150%; text-align:left; padding: 40px; text-indent: 25px;">{{aboutBarbarian}}</p>
 							<v-flex>
-								<v-btn block color="#fece56" to='/ChooseRace'>Next: Race</v-btn>
+								<v-btn block color="#fece56" to='/NameCharacter'>Next: Name, Level, and Alignment</v-btn>
 							</v-flex>
 						</v-card>
                         <v-card v-if="whichClass == 1">
@@ -81,7 +81,7 @@
 							<v-img contain aspect-ratio="2" v-bind:src="require('../../assets/images/bard.png')"></v-img>
 							<p style="font-size:150%; text-align:left; padding: 40px; text-indent: 25px;">{{aboutBard}}</p>
 							<v-flex>
-								<v-btn block color="#fece56" to='/ChooseRace'>Next: Race</v-btn>
+								<v-btn block color="#fece56" to='/NameCharacter'>Next: Name, Level, and Alignment</v-btn>
 							</v-flex>
 						</v-card>
                         <v-card v-if="whichClass == 2">
@@ -89,7 +89,7 @@
 							<v-img contain aspect-ratio="2" v-bind:src="require('../../assets/images/cleric.jpg')"></v-img>
 							<p style="font-size:150%; text-align:left; padding: 40px; text-indent: 25px;">{{aboutCleric}}</p>
 							<v-flex>
-								<v-btn block color="#fece56" to='/ChooseRace'>Next: Race</v-btn>
+								<v-btn block color="#fece56" to='/NameCharacter'>Next: Name, Level, and Alignment</v-btn>
 							</v-flex>
 						</v-card>
                         <v-card v-if="whichClass == 3">
@@ -97,7 +97,7 @@
 							<v-img contain aspect-ratio="2" v-bind:src="require('../../assets/images/druid.png')"></v-img>
 							<p style="font-size:150%; text-align:left; padding: 40px; text-indent: 25px;">{{aboutDruid}}</p>
 							<v-flex>
-								<v-btn block color="#fece56" to='/ChooseRace'>Next: Race</v-btn>
+								<v-btn block color="#fece56" to='/NameCharacter'>Next: Name, Level, and Alignment</v-btn>
 							</v-flex>
 						</v-card>
 						<v-card v-if="whichClass == 4">
@@ -105,7 +105,7 @@
 							<v-img contain aspect-ratio="2" v-bind:src="require('../../assets/images/fighter.jpg')"></v-img>
 							<p style="font-size:150%; text-align:left; padding: 40px; text-indent: 25px;">{{aboutFighter}}</p>
 							<v-flex>
-								<v-btn block color="#fece56" to='/ChooseRace'>Next: Race</v-btn>
+								<v-btn block color="#fece56" to='/NameCharacter'>Next: Name, Level, and Alignment</v-btn>
 							</v-flex>
 						</v-card>
                         <v-card v-if="whichClass == 5">
@@ -113,7 +113,7 @@
 							<v-img contain aspect-ratio="2" v-bind:src="require('../../assets/images/monk.png')"></v-img>
 							<p style="font-size:150%; text-align:left; padding: 40px; text-indent: 25px;">{{aboutMonk}}</p>
 							<v-flex>
-								<v-btn block color="#fece56" to='/ChooseRace'>Next: Race</v-btn>
+								<v-btn block color="#fece56" to='/NameCharacter'>Next: Name, Level, and Alignment</v-btn>
 							</v-flex>
 						</v-card>
                         <v-card v-if="whichClass == 6">
@@ -121,7 +121,7 @@
 							<v-img contain aspect-ratio="2" v-bind:src="require('../../assets/images/paladin.png')"></v-img>
 							<p style="font-size:150%; text-align:left; padding: 40px; text-indent: 25px;">{{aboutPaladin}}</p>
 							<v-flex>
-								<v-btn block color="#fece56" to='/ChooseRace'>Next: Race</v-btn>
+								<v-btn block color="#fece56" to='/NameCharacter'>Next: Name, Level, and Alignment</v-btn>
 							</v-flex>
 						</v-card>
                         <v-card v-if="whichClass == 7">
@@ -129,7 +129,7 @@
 							<v-img contain aspect-ratio="2" v-bind:src="require('../../assets/images/ranger.jpg')"></v-img>
 							<p style="font-size:150%; text-align:left; padding: 40px; text-indent: 25px;">{{aboutRanger}}</p>
 							<v-flex>
-								<v-btn block color="#fece56" to='/ChooseRace'>Next: Race</v-btn>
+								<v-btn block color="#fece56" to='/NameCharacter'>Next: Name, Level, and Alignment</v-btn>
 							</v-flex>
 						</v-card>
                         <v-card v-if="whichClass == 8">
@@ -137,7 +137,7 @@
 							<v-img contain aspect-ratio="2" v-bind:src="require('../../assets/images/rogue.png')"></v-img>
 							<p style="font-size:150%; text-align:left; padding: 40px; text-indent: 25px;">{{aboutRouge}}</p>
 							<v-flex>
-								<v-btn block color="#fece56" to='/ChooseRace'>Next: Race</v-btn>
+								<v-btn block color="#fece56" to='/NameCharacter'>Next: Name, Level, and Alignment</v-btn>
 							</v-flex>
 						</v-card>
                         <v-card v-if="whichClass == 9">
@@ -145,7 +145,7 @@
 							<v-img contain aspect-ratio="2" v-bind:src="require('../../assets/images/sorcerer.jpg')"></v-img>
 							<p style="font-size:150%; text-align:left; padding: 40px; text-indent: 25px;">{{aboutSorcerer}}</p>
 							<v-flex>
-								<v-btn block color="#fece56" to='/ChooseRace'>Next: Race</v-btn>
+								<v-btn block color="#fece56" to='/NameCharacter'>Next: Name, Level, and Alignment</v-btn>
 							</v-flex>
 						</v-card>
                         <v-card v-if="whichClass == 10">
@@ -153,7 +153,7 @@
 							<v-img contain aspect-ratio="2" v-bind:src="require('../../assets/images/warlock.jpg')"></v-img>
 							<p style="font-size:150%; text-align:left; padding: 40px; text-indent: 25px;">{{aboutWarlock}}</p>
 							<v-flex>
-								<v-btn block color="#fece56" to='/ChooseRace'>Next: Race</v-btn>
+								<v-btn block color="#fece56" to='/NameCharacter'>Next: Name, Level, and Alignment</v-btn>
 							</v-flex>
 						</v-card>
                         <v-card v-if="whichClass == 11">
@@ -161,7 +161,7 @@
 							<v-img contain aspect-ratio="2" v-bind:src="require('../../assets/images/wizard.png')"></v-img>
 							<p style="font-size:150%; text-align:left; padding: 40px; text-indent: 25px;">{{aboutWizard}}</p>
 							<v-flex>
-								<v-btn block color="#fece56" to='/ChooseRace'>Next: Race</v-btn>
+								<v-btn block color="#fece56" to='/NameCharacter'>Next: Name, Level, and Alignment</v-btn>
 							</v-flex>
 						</v-card>
 					</v-flex>
