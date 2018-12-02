@@ -2,6 +2,7 @@
 <v-container grid-list-xs>
 	<Toolbar></Toolbar>
 	<Navigation></Navigation>
+	<v-flex pt-4>
 		<div style = "text-align:center">
 			
 		</div>
@@ -28,6 +29,7 @@
 		</div></div>
 	</div>
 </div>
+</v-flex>
 </v-container>
 </template>
 
