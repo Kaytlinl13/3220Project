@@ -14,7 +14,7 @@
 <h1 style="font-family:milonga; font-size:300%; color: #5e3fb4;">About Us</h1>
 		<font size="5">
 		<p> 
-		Hi there, We're Kaitlyn Lafleur, Felipe Palacios, Justin Smith, and Nicholas Partridge 
+		Hi there, We're Kaytlin Lafleur, Felipe Palacios, Justin Smith, and Nicholas Partridge 
 		<br> and we're the First Roll Development Team! 
 		<br>We are a group of people, players, and dungeon masters who enjoy D&D first and foremost.
 		<br> But, when we found out the difficulties that new players have when trying to get started in D&D,
