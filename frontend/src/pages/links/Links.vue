@@ -3,6 +3,7 @@
 <v-container grid-list-xs>
 	<Toolbar></Toolbar>
 	<Navigation></Navigation>	
+	<v-flex pt-4>
 		<div class="v-card theme--light" style="background-image: linear-gradient(to top, rgb(205, 66, 149), rgb(254, 206, 86));">
 		<div class="flex pa-4">			<h1 style="font-family:milonga; font-size:300%; color: #5e3fb4;">Resources used to create this website</h1>
 		<div class="v-card theme--light">
@@ -29,6 +30,7 @@
 </div>
 </div>
 		</div>
+	</v-flex>
 </v-container>
 </template>
 
