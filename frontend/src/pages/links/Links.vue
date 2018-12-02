@@ -16,12 +16,13 @@
 			<br><a href="https://vuetifyjs.com/en/"style = "color:#5e3fb4" target="_blank"> Vuetify Framework</a>
 			<br><a href="https://fontawesome.com/v4.7.0/icons/"style = "color:#5e3fb4" target="_blank"> FontAwesome Icons</a>
 			<br><a href="https://fonts.google.com/"style = "color:#5e3fb4" target="_blank"> Google Fonts</a>
+			<br><a href="https://www.dndbeyond.com/"style = "color:#5e3fb4" target="_blank"> D&D Beyond</a>
 			</font>
 
 		<div >
 			<font size="1"> 
 			<br><br><br><br>
-				<p>All websites and trademarks are property of their respective owners. We are in no way affiliated with Wizards of the Coast&#169, Google&#169, Vuetify&#169, or FontAwesome&#169<br> Website created by The Guild for UNT - CSCE 3220. </p>
+				<p>All websites and trademarks are property of their respective owners. We are in no way affiliated with Wizards of the Coast&#169, Google&#169, Vuetify&#169, D&D Beyond&#169, or FontAwesome&#169<br> Website created by The Guild for UNT - CSCE 3220. </p>
 			</font>	
 		</div>
 			</div>
