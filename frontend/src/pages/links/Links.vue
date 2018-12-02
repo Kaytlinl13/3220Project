@@ -9,7 +9,7 @@
 		
 			<h1 style="font-family:milonga; font-size:300%; color: #5e3fb4;">Resources used to create this website:</h1>
 			<font size="5">
-			<br><a href="dnd.wizards.com"> Wizards of the Coast - Dungeons & Dragons 5<sup>th</sup> edition</a> 
+			<br><a href="https://dnd.wizards.com"> Wizards of the Coast - Dungeons & Dragons 5<sup>th</sup> edition</a> 
 			<br><a href="https://fonts.google.com/specimen/Milonga"> Google Font Milonga</a>
 			<br><a href="https://vuetifyjs.com/en/"> Vuetify Framework</a>
 			<br><a href="https://fontawesome.com/v4.7.0/icons/"> FontAwesome Icons</a>
