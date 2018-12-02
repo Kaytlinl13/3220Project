@@ -16,15 +16,15 @@
 							</v-flex>
 							<v-flex ma-2>
 								<v-btn v-if="whichRace == 1" style="color:white;" block color="#9a35b7">Dwarf</v-btn>
-								<v-btn v-else style="color:white;" block color="5e3fb4" v-on:click="whichRace=1">Dwarf</v-btn>
+								<v-btn v-else style="color:white;" block color="#5e3fb4" v-on:click="whichRace=1">Dwarf</v-btn>
 							</v-flex>
 							<v-flex ma-2>
 								<v-btn v-if="whichRace == 2" style="color:white;" block color="#9a35b7">Elf</v-btn>
-								<v-btn v-else style="color:white;" block color="5e3fb4" v-on:click="whichRace=2">Elf</v-btn>
+								<v-btn v-else style="color:white;" block color="#5e3fb4" v-on:click="whichRace=2">Elf</v-btn>
 							</v-flex>
 							<v-flex ma-2>
 								<v-btn v-if="whichRace == 3" style="color:white;" block color="#9a35b7">Gnome</v-btn>
-								<v-btn v-else style="color:white;" block color="5e3fb4" v-on:click="whichRace=3">Gnome</v-btn>
+								<v-btn v-else style="color:white;" block color="#5e3fb4" v-on:click="whichRace=3">Gnome</v-btn>
 							</v-flex>
 							<v-flex ma-2>
 								<v-btn v-if="whichRace == 4" style="color:white;" block color="#9a35b7">Half-Elf</v-btn>
@@ -32,19 +32,19 @@
 							</v-flex>
 							<v-flex ma-2>
 								<v-btn v-if="whichRace == 5" style="color:white;" block color="#9a35b7">Halfling</v-btn>
-								<v-btn v-else style="color:white;" block color="5e3fb4" v-on:click="whichRace=5">Halfling</v-btn>
+								<v-btn v-else style="color:white;" block color="#5e3fb4" v-on:click="whichRace=5">Halfling</v-btn>
 							</v-flex>
 							<v-flex ma-2>
 								<v-btn v-if="whichRace == 6" style="color:white;" block color="#9a35b7">Half-Orc</v-btn>
-								<v-btn v-else style="color:white;" block color="5e3fb4" v-on:click="whichRace=6">Half-Orc</v-btn>
+								<v-btn v-else style="color:white;" block color="#5e3fb4" v-on:click="whichRace=6">Half-Orc</v-btn>
 							</v-flex>
 							<v-flex ma-2>
 								<v-btn v-if="whichRace == 7" style="color:white;" block color="#9a35b7">Human</v-btn>
-								<v-btn v-else style="color:white;" block color="5e3fb4" v-on:click="whichRace=7">Human</v-btn>
-							</v-flex>
+								<v-btn v-else style="color:white;" block color="#5e3fb4" v-on:click="whichRace=7">Human</v-btn>
+							</v-flex ma-2>
 							<v-flex ma-2>
-								<v-btn v-if="whichRace == 8" style="color:white;" block color="#9a35b7">Tiefling</v-btn>
-								<v-btn v-else style="color:white;" block color="5e3fb4" v-on:click="whichRace=8">Tiefling</v-btn>
+							<v-btn v-if="whichRace == 8" style="color:white;" block color="#9a35b7">Tiefling</v-btn>
+							<v-btn v-else style="color:white;" block color="#5e3fb4" v-on:click="whichRace=8">Tiefling</v-btn>
 							</v-flex>
 						</v-card>
 						<v-flex>
@@ -122,7 +122,7 @@
 						</v-card>
 						<v-card v-if="whichRace == 8">
 							<h1 style="font-family:milonga; font-size:300%; text-align: center;">Tiefling</h1>
-							<v-img contain aspect-ratio="2" v-bind:src="require('../../assets/images/tiefling.jpg')"></v-img>
+							<v-img contain aspect-ratio="2" v-bind:src="require('../../assets/images/tiefling.png')"></v-img>
 							<p style="font-size:200%; text-align:left; padding: 40px; text-indent: 25px;">{{aboutTiefling}}</p>
 							<v-flex>
 								<v-btn block color="#fece56" to='/NameCharacter'>Next: Name, Level, and Alignment</v-btn>
