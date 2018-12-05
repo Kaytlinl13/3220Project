@@ -1,16 +1,10 @@
 <template>
 	<v-container grid-list-xs>
 		<Toolbar></Toolbar>
-		<div class="text-xs-center">
-    	<v-btn large round color="#fece56" to="/">Home<v-icon right dark>fas fa-home</v-icon></v-btn>
-    	<v-btn large round color="#fece56" to="/ChooseClass">New Character<v-icon right dark>fas fa-pencil-alt</v-icon></v-btn>
-    	<v-btn large round color="#fece56"to="/Links">Sources<v-icon right dark>fas fa-external-link-alt</v-icon></v-btn>
-    	<v-btn large round color="#fece56"to="/AboutUs">About Us<v-icon right dark>fas fa-dungeon</v-icon></v-btn>
-  	</div>
+		<Navigation></Navigation>
   	<v-layout row align-center mt-4>
   		<v-flex >
-  			<v-card >
-  				
+  			<v-card>
   				<v-toolbar color="#9a35b7" dark>
       			<v-toolbar-title style="font-family:milonga; font-size:300%; text-align: center;">My Characters</v-toolbar-title>
       			<v-spacer></v-spacer> 
@@ -50,7 +44,7 @@
          	</v-data-table>
         </v-card>
         <v-flex xs12 sm5 md3>
-        	<v-btn  large color="#fece56" to="/ChooseClass">New Character<v-icon right dark>fas fa-pencil-alt</v-icon></v-btn>
+        	<v-btn  large color="#fece56" to="/ChooseRace">New Character<v-icon right dark>fas fa-pencil-alt</v-icon></v-btn>
       	</v-flex>
       </v-flex>
       	</v-card>
@@ -91,7 +85,36 @@ import Navigation from "../universalComponents/navigation.vue"
 					level: 1,
 					race: 'Human',
 					class: 'Rogue'
-				}]
+				},
+        {
+          value: false,
+          name: 'Kaytlin Lafleur',
+          level: 1,
+          race: 'Elf',
+          class: 'Druid'
+        },
+        {
+          value: false,
+          name: 'Nicholas Partridge',
+          level: 2,
+          race: 'Dragonborn',
+          class: 'Wizard'
+        },
+        {
+          value: false,
+          name: 'Justin Smith',
+          level: 4,
+          race: 'Half-Orc',
+          class: 'Barbarian'
+        },
+        {
+          value: false,
+          name: 'Felipe Palacios',
+          level: 6,
+          race: 'Dwarf',
+          class: 'Cleric'
+        }
+        ]
 			}
 		}
 	}
