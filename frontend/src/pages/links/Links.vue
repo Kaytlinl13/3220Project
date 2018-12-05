@@ -18,6 +18,8 @@
 			<br><a href="https://fontawesome.com/v4.7.0/icons/"style = "color:#5e3fb4" target="_blank"> FontAwesome Icons</a>
 			<br><a href="https://fonts.google.com/"style = "color:#5e3fb4" target="_blank"> Google Fonts</a>
 			<br><a href="https://www.dndbeyond.com/"style = "color:#5e3fb4" target="_blank"> D&D Beyond</a>
+			<br><a href="http://easydamus.com/alignment.html"style = "color:#5e3fb4" target="_blank"> Easydamus Alignment</a>
+			<br><a href="https://www.fantasynamegenerators.com/dungeons-and-dragons.php"style = "color:#5e3fb4" target="_blank"> Fantasy Name Generators</a>
 			</font>
 
 		<div >

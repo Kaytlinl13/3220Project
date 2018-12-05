@@ -85,7 +85,36 @@ import Navigation from "../universalComponents/navigation.vue"
 					level: 1,
 					race: 'Human',
 					class: 'Rogue'
-				}]
+				},
+        {
+          value: false,
+          name: 'Kaytlin Lafleur',
+          level: 1,
+          race: 'Elf',
+          class: 'Druid'
+        },
+        {
+          value: false,
+          name: 'Nicholas Partridge',
+          level: 2,
+          race: 'Dragonborn',
+          class: 'Wizard'
+        },
+        {
+          value: false,
+          name: 'Justin Smith',
+          level: 4,
+          race: 'Half-Orc',
+          class: 'Barbarian'
+        },
+        {
+          value: false,
+          name: 'Felipe Palacios',
+          level: 6,
+          race: 'Dwarf',
+          class: 'Cleric'
+        }
+        ]
 			}
 		}
 	}
