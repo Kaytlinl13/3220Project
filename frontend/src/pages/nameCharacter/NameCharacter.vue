@@ -103,7 +103,7 @@
 								</div>
 								<div v-else-if="this.race == 'Tiefling'">
 									<h2 style="font-size:250%; color: #9a35b7;">Tielfing Names </h2>
-									<p style="font-size:150%;"> {{Tielfing_names}}</p>
+									<p style="font-size:150%;"> {{tielfing_names}}</p>
 									<a target="_blank" href="https://www.fantasynamegenerators.com/dnd-tiefling-names.php"> Tiefling Name Generator</a>
 								</div>
 								<div v-else>
